@@ -7,6 +7,6 @@ void setup() {
 void loop() {
   digitalWrite(LED_PIN, HIGH);
   delay(100);   // allumée 100 ms
-  digitalWrite(LED_PIN, LOW);
+  digitalWrite(LED_PIN, LOW); 
   delay(100);   // éteinte 100 ms
 }

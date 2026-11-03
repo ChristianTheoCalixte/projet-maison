@@ -5,8 +5,8 @@ void setup() {
 }
 
 void loop() {
-  digitalWrite(LED_PIN, HIGH);  // LED allumée
-  delay(500); 
-  digitalWrite(LED_PIN, LOW);   // LED éteinte
-  delay(500);
+  digitalWrite(LED_PIN, HIGH);
+  delay(100);   // allumée 100 ms
+  digitalWrite(LED_PIN, LOW);
+  delay(100);   // éteinte 100 ms
 }
